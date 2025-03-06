@@ -1,0 +1,33 @@
+{
+  "name": "smart-async",
+  "version": "1.0.0",
+  "description": "A set of asynchronous utilities for handling retries, timeouts, debouncing, and cancellations in TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunilgawai/smart-async.git"
+  },
+  "keywords": [
+    "async",
+    "typescript",
+    "retry",
+    "timeout",
+    "debounce",
+    "utilities"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "smart-async": "file:smart-async-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.x",
+    "jest": "^29.x",
+    "ts-jest": "^29.x",
+    "typescript": "^4.x"
+  }
+}

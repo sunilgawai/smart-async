@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Or a version appropriate for your audience
+    "module": "commonjs", // CommonJS is widely used in Node.js
+    "declaration": true, // Generate .d.ts files for type declarations
+    "outDir": "./dist", // Output directory for compiled files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true // For compatibility with commonjs modules
+  },
+  "include": ["src/**/*"]
+}
